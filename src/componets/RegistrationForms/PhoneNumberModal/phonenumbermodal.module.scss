@@ -1,0 +1,144 @@
+.overlay {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(0, 0, 0, 0.4);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   z-index: 99999;
+}
+
+.registerModal {
+   background: white;
+   border-radius: 15px;
+   position: relative;
+   max-width: 410px;
+   padding: 32px;
+   svg {
+      cursor: pointer;
+      position: absolute;
+      top: -5px;
+      right: -40px;
+      width: 35px;
+   }
+   h1 {
+      margin-bottom: 8px;
+      font-size: 35px;
+   }
+   p {
+      margin-bottom: 24px;
+      font-size: 16px;
+      color: rgb(92, 99, 112);
+   }
+   span {
+      strong {
+         cursor: pointer;
+         font-weight: normal;
+         color: #fc7d07;
+         line-height: 16px;
+      }
+   }
+   .phonenumberForm {
+      margin-bottom: 15px;
+      label {
+         display: block;
+         margin-bottom: 8px;
+         font-size: 14px;
+         color: rgb(127, 133, 145);
+      }
+      input {
+         width: 100%;
+         border: 1px solid #b7b7b7;
+         font-size: 18px;
+         padding: 14px 12px;
+         border-radius: 8px;
+         margin-bottom: 35px;
+         &:focus {
+            border: 1px solid #fc7d07;
+         }
+      }
+      button {
+         display: block;
+         padding: 15px 0;
+         border-radius: 30px;
+         width: 100%;
+         font-size: 16px;
+         color: white;
+         background-color: rgb(255, 105, 0);
+         &:disabled {
+            background-color: rgb(226, 226, 233);
+            color: rgb(171, 173, 186);
+            cursor: not-allowed;
+         }
+      }
+      .codeInputs {
+         display: flex;
+         padding: 0px 40px;
+         input::-webkit-outer-spin-button,
+         input::-webkit-inner-spin-button {
+            /* display: none; <- Crashes Chrome on hover */
+            -webkit-appearance: none;
+            margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+         }
+         .codeInput {
+            text-align: center;
+            font-size: 25px;
+            margin-right: 20px;
+            &:nth-last-child(1) {
+               margin-right: 0;
+            }
+         }
+      }
+   }
+}
+
+
+@media (max-width: 515px) { 
+   .registerModal {
+      border-radius: 0px;
+      position: relative;
+      max-width: 100%;
+      height: 100%;
+      padding: 28px;
+      h1 {
+         text-align: center;
+         font-size: 32px;
+         margin: 20px 0;
+         margin-top: 30px;
+      }
+      p {
+         font-size: 15px;
+         margin-bottom: 15px;
+      }
+      svg {
+         right: 25px;
+         top: 55px;
+         fill:black;
+
+      }
+      
+   }
+ }
+ @media (max-width: 420px) { 
+   .registerModal {
+      .phonenumberForm {
+        
+         .codeInputs {
+            display: flex;
+            padding: 0px 10px;
+
+            .codeInput {
+               text-align: center;
+               font-size: 25px;
+               margin-right: 15px;
+               &:nth-last-child(1) {
+                  margin-right: 0;
+               }
+            }
+         }
+      }
+   }
+ }

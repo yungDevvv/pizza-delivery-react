@@ -1,0 +1,171 @@
+.nav {
+   margin-top: 15px;
+   padding: 12px 0px;
+   position: sticky;
+   top: -1px;
+   z-index: 12;
+   background: #ffffff;
+   padding-top: calc(1em + 1px);
+
+   div {
+      position: relative;
+      z-index: 12;
+      .nav__list {
+         overflow: hidden;
+         li {
+            &:nth-child(1) {
+               margin-left: -40px;
+               margin-right: 0;
+            }
+            &:nth-child(1).nav__logo-disable {
+               transition: all 0.4s;
+               margin-left: -40px;
+               transform: translate(-100%);
+            }
+            &:nth-child(1).nav__logo-active {
+               transition: all 0.4s;
+               margin-right: 40px !important;
+               margin-left: 0px !important;
+               transform: translate(0%) !important;
+            }
+            font-size: 17px;
+            margin-right: 37px;
+            cursor: pointer;
+            transition: 0.1s ease-in-out;
+            .nav__link-active {
+               color: #ff7c03;
+            }
+            &:hover {
+               color: #ff7c03;
+            }
+         }
+      }
+      button {
+         background: #ff7c03;
+         border-radius: 30px;
+         color: #ffffff;
+         padding: 9px 0px;
+         width: 145px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         font-size: 17px;
+         margin-left: auto;
+         .line {
+            position: relative;
+            &:after {
+               content: "";
+               display: inline-block;
+               position: absolute;
+               width: 1px;
+               height: 22px;
+               background: #ffffff;
+               top: -11px;
+            }
+         }
+         .cart-price {
+            margin-right: 10px;
+         }
+         .cart-count {
+            margin-left: 10px;
+         }
+      }
+   }
+}
+.fixed {
+   // position: relative;
+
+   &:before {
+      content: "";
+      width: 100%;
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 70px;
+      background: white;
+      z-index: 11;
+      box-shadow: 0px 1px 15px -5px gray;
+   }
+}
+
+@media (max-width: 1230px) {
+   .nav {
+      div {
+         .nav__list {
+            li {
+               &:nth-child(1) {
+                  margin-left: -40px;
+                  margin-right: 0;
+               }
+               &:nth-child(1).nav__logo-disable {
+                  margin-left: -40px;
+               }
+               &:nth-child(1).nav__logo-active {
+                  margin-right: 30px !important;
+                  margin-left: 0px !important;
+               }
+               font-size: 16px;
+               margin-right: 30px;
+            }
+         }
+      }
+   }
+}
+
+@media (max-width: 950px) {
+   .nav {
+      div {
+         .nav__list {
+            li {
+               border-radius: 16px;
+
+               padding: 9px 18px;
+               background: rgb(243, 243, 247);
+               color: rgb(95, 97, 99);
+
+               &:nth-child(1) {
+                  // I'll remove 'about us' from nav because i put it in burger menu
+                  background: none;
+                  padding: 0;
+               }
+               &:nth-last-child(1) {
+                  // I'll remove 'about us' from nav because i put it in burger menu
+                  display: none;
+               }
+               &:nth-child(1).nav__logo-active {
+                  margin-right: 12px !important;
+               }
+               font-size: 16px;
+               margin-right: 10px;
+               &:hover {
+                  color: #5f6163;
+               }
+            }
+
+         }
+         button {
+            // Cart will be on the right side of screen
+            display: none;
+         }
+      }
+   }
+}
+@media (max-width: 750px) { 
+   .nav {
+      margin-top: 0;
+      div {
+         .nav__list {
+            overflow-x: scroll !important;
+            li {
+              
+               padding: 7px 16px;
+            }
+         }
+      }
+   }
+   .fixed {
+      &:before {
+         height: 65px;
+      }
+   }
+ }

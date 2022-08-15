@@ -1,0 +1,87 @@
+[
+   {
+      "id": 141424,
+      "title": "Turkey pastrami",
+      "img": "img/additives/img-3.png",
+      "price": 1
+   },
+   {
+      "id": 14123,
+      "title": "Cheddar and parmesan",
+      "img": "img/additives/img-2.png",
+      "price": 1
+   },
+   {
+      "id": 12424,
+      "title": "Ham",
+      "img": "img/additives/img-6.png",
+      "price": 1
+   },
+   {
+      "id": 22422,
+      "title": "Chick",
+      "img": "img/additives/img-4.png",
+      "price": 1
+   },
+   {
+      "id": 131424,
+      "title": "Champignon",
+      "img": "img/additives/img-5.png",
+      "price": 1
+   },
+   {
+      "id": 1415424,
+      "title": "Brynza",
+      "img": "img/additives/img-7.png",
+      "price": 1
+   },
+   {
+      "id": 11424,
+      "title": "Tomato",
+      "img": "img/additives/img-8.png",
+      "price": 1
+   },
+   {
+      "id": 661424,
+      "title": "Pepperoni",
+      "img": "img/additives/img-9.png",
+      "price": 1
+   },
+   {
+      "id": 188424,
+      "title": "Spicy chorizo",
+      "img": "img/additives/img-10.png",
+      "price": 1
+   },
+   {
+      "id": 661428,
+      "title": "Olives",
+      "img": "img/additives/img-11.png",
+      "price": 1
+   },
+   {
+      "id": 6622424,
+      "title": "Bacon",
+      "img": "img/additives/img-12.png",
+      "price": 1
+   },
+   {
+      "id": 6151424,
+      "title": "Italian herbs",
+      "img": "img/additives/img-14.png",
+      "price": 1
+   },
+   {
+      "id": 11114,
+      "title": "Red onion",
+      "img": "img/additives/img-13.png",
+      "price": 1
+   },
+   {
+      "id": 1112214,
+      "title": "spicy jalapeno",
+      "img": "img/additives/img-1.png",
+      "price": 1
+   }
+   
+]

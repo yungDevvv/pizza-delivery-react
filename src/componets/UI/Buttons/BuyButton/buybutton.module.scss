@@ -1,0 +1,34 @@
+.buyButton {
+   background: #ffffff;
+   border: 1px solid #fc7d07;
+   padding: 9px 30px;
+   border-radius: 61px;
+   font-size: 17px;
+   color: #fc7d07;
+   font-weight: 600;
+   transition: opacity 0.1s ease;
+   transition: background-color 0.3s ease;
+   display: inline-block;
+   align-self: baseline;
+   //justify-self: flex-start;
+   &:active {
+      opacity: 0.4;
+   }
+   &:hover {
+      background-color: #fc7d07;
+      color: #ffffff;
+   }
+}
+@media (max-width: 1230px) {
+   .buyButton {
+      font-size: 16px;
+   }
+}
+
+@media (max-width: 950px) {
+   .buyButton {
+      padding: 6px 17px;
+      font-size: 16px;
+      font-weight: normal;
+   }
+}

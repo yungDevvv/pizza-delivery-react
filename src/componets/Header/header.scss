@@ -1,0 +1,180 @@
+$dark: #767676;
+$main: #ff7c03;
+
+.header {
+   padding-top: 25px;
+   line-height: 23px;
+   &__menu {
+      display: none;
+      width: 27px;
+
+      span {
+         display: block;
+         width: 100%;
+         height: 3px;
+         border-radius: 5px;
+         background: #000;
+         margin-bottom: 3px;
+      }
+   }
+   &__logo {
+      display: block;
+      margin-right: 83px;
+      &:active {
+         color: black;
+      }
+      div {
+         margin-left: 18px;
+         h1 {
+            color: black;
+            font-size: 24px;
+            font-weight: 700;
+         }
+         p {
+            color: $dark;
+            font-size: 16px;
+         }
+      }
+   }
+   &__delivery {
+      p {
+         font-size: 26px;
+
+         strong {
+            color: $main !important;
+            cursor: pointer;
+         }
+      }
+      .delivery__rate {
+         position: relative;
+
+         .rate__popup {
+            font-size: 15px;
+            display: inline;
+         }
+         span {
+            img {
+               position: relative;
+               top: 3px;
+            }
+         }
+      }
+   }
+   &__user-icon {
+      cursor: pointer;
+      text-align: center;
+      margin-left: auto;
+      &:hover {
+         svg {
+            fill: #ff7c03;
+            transform: scale(1.05) rotate(30deg);
+         }
+         span {
+            color: #ff7c03;
+         }
+      }
+      svg {
+         transition: all 0.15s ease-in-out;
+         width: 40px;
+      }
+      span {
+         transition: all 0.15s ease-in-out;
+         font-size: 17px;
+         display: block;
+         margin-top: -8px;
+         color: black;
+      }
+   }
+   .sing-in-button {
+      border: 1px solid $main;
+      color: $main;
+      background: #ffffff;
+      font-size: 17px;
+      padding: 7px 30px;
+      border-radius: 50px;
+      font-weight: 600;
+      margin-left: auto;
+      transition: 0.17s ease;
+      &:hover {
+         background: $main;
+         color: #ffffff;
+      }
+   }
+}
+/* Header popup animation */
+@keyframes anvil {
+   0% {
+      transform: translateY(0px);
+      opacity: 0;
+      box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+   }
+   1% {
+      transform: translateY(15px);
+      opacity: 0;
+      box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+   }
+   100% {
+      transform: translateY(0px);
+      opacity: 1;
+      box-shadow: 0 0 500px rgba(241, 241, 241, 0);
+   }
+}
+
+
+
+@media (max-width: 1230px) {
+   .header {
+      &__logo {
+         margin-right: 53px;
+      }
+      &__delivery {
+         display: none;
+         p {
+            font-size: 22px;
+            strong {
+               font-size: 23px;
+            }
+         }
+      }
+   }
+}
+
+@media (max-width: 950px) {
+   .header {
+      
+      padding-top: 25px;
+      line-height: 0px;
+      display: flex;
+      
+      justify-content: space-between;
+      &__delivery {
+         display: none !important;
+      }
+      &__menu {
+         display: block;
+      }
+      &__logo {
+         margin-right: 0;
+         img {
+            width: 40px;
+         }
+         div {
+            margin-left: 10px;
+
+            h1 {
+               font-size: 20px;
+               font-weight: 700;
+            }
+            p {
+               display: none;
+            }
+         }
+      }
+      &__user-icon {
+         display: none;
+      }
+      .sing-in-button {
+         display: none;
+      }
+   }
+}

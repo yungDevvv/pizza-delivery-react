@@ -1,0 +1,189 @@
+@import '_reset.scss';
+@import '_myclasses.scss';
+/* My classes to simplify development */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+
+$dark: #767676;$main:#FF7C03; 
+
+
+body {
+ overflow-x: hidden !important;
+  margin: 0;
+  
+  // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  //   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  //   sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Rubik', sans-serif;
+}
+.wrapper {
+  width:100vw;
+  position: relative;
+  z-index: 1;
+  
+  
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+ /* Toastify */
+
+  .Toastify__toast-body {
+    font-size: 20px;
+  }
+  #success { 
+    .Toastify__toast-container {
+      width: 450px;
+    }
+    .Toastify__toast-container--top-center {
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+    }
+    .Toastify__toast {
+      padding: 20px 10px;
+    }
+  }
+
+main {
+  margin-top: 50px;
+  .section-food {
+    min-height: 4510px; 
+    transition: opacity 1s ease;
+    &_novisible {
+       opacity: 0;
+    }
+    &_visible {
+      animation: showing 1s ease;
+      
+    }
+  }
+    h1 {
+      font-size: 36px;
+      font-weight: 600;
+      margin-bottom: 40px;
+    }
+    .food-row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+}
+
+/* CSSTransition Group */
+
+.alert-enter {
+  opacity: 0;
+  transform: scale(1);
+}
+.alert-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.alert-exit {
+  opacity: 1;
+}
+.alert-exit-active {
+  opacity: 0;
+  transform: scale(1);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.cart-enter {
+  transform: translate(100%);
+}
+.cart-enter-active {
+  transform: translate(0%);
+  transition: all 300ms;
+}
+.cart-exit {
+  transform: translate(0%);
+  transition: all 300ms;
+}
+
+.cart-exit-active {
+  transform: translate(100%);
+  transition: all 300ms;
+}
+
+.mobile-card-modal-enter {
+  transform: translate(0%, 100%);
+}
+.mobile-card-modal-enter-active {
+  transform: translate(0%);
+  transition: all 300ms;
+}
+.mobile-card-modal-exit {
+  transform: translate(0%);
+  transition: all 300ms;
+}
+
+.mobile-card-modal-exit-active {
+  transform: translate(0%, 100%);
+  transition: all 300ms;
+}
+
+/* React-toastify */
+
+@media (max-width: 500px) { 
+  
+  #success { 
+    .Toastify__toast-container {
+      width: 95%;
+     
+      .Toastify__toast-body {
+        div {
+          h1 {
+            font-size: 22px !important;
+          }
+          p {
+           
+            font-size: 15px !important;
+          }
+          
+        }
+      }
+    }
+  }
+}
+
+@keyframes showing {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+@media (max-width: 400px) { 
+  .checkout-page {
+    .checkout-modal {
+      width: 500px;
+      background: white;
+      padding: 20px 15px;
+      h1 {
+        font-size: 27px;
+      }
+      .checkout__person {
+        font-size: 17px;
+      }
+      label {
+        display: block;
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+      input {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  
+}
+
+
+

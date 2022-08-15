@@ -1,0 +1,147 @@
+.popup-arrow {
+   color: rgb(55, 53, 53)
+ }
+.profile {
+   padding: 60px 0;
+   &__popup-container {
+      padding: 10px 20px;
+      max-width: 250px;
+      background-color: rgb(55, 53, 53);
+      color: white;
+      border-radius: 10px;
+      line-height: 1.25;
+      font-size: 14px;
+   }
+   &__select-block {
+      margin-bottom: 25px;
+      span {
+         margin-left: 5px;
+         cursor: pointer;
+         font-size: 16px;
+         color: #ff7c03;
+         &:hover {
+            color: #da6900;
+         }
+      }
+      select {
+         border: 1px solid rgba(92, 99, 112, 0.32);
+         font-size: 16px;
+         outline: none;
+         cursor: pointer;
+      }
+      select::-ms-expand {
+         display: none;
+      }
+      .birtday-select {
+         &__months {
+            border-left: none;
+            border-radius: 0px 8px 8px 0px;
+            padding: 8px 20px 8px 16px;
+         }
+         &__days {
+            padding: 8px 20px 8px 16px;
+            border-radius: 8px 0px 0px 8px;
+         }
+      }
+   }
+   &__email-block {
+      position: relative;
+      span {
+         cursor: pointer;
+         font-size: 16px;
+         position: absolute;
+         right: 50px;
+         margin-top: 12px;
+         color: #ff7c03;
+      }
+      span[data-disabled="true"] {
+         color: rgb(171, 173, 186);
+      }
+      .profile__email-input {
+         padding-right: 60px;
+      }
+      
+   }
+   &__logout-button {
+      height: 35px;
+      border-radius: 20px;
+      padding: 0px 25px;
+      font-size: 18px;
+      &:active {
+         background: rgb(220, 220, 220);
+      }
+   }
+   &__body {
+      max-width: 350px;
+
+      h1 {
+         font-size: 30px;
+         margin-bottom: 45px;
+      }
+      label {
+         display: flex;
+         align-items: center;
+         margin-bottom: 5px;
+         font-size: 15px;
+         svg {
+            margin-left: 7px;
+            width: 15px;
+            height: 15px;
+         }
+      }
+      .input-container {
+         position: relative;
+         span {
+            cursor: pointer;
+            font-size: 16px;
+            color: #ff7c03;
+            &:hover {
+               color: #da6900;
+            }
+         }
+      }
+      .input__cancel-button {
+         visibility: hidden;
+         display: inline-block;
+         position: absolute;
+         right: -27px;
+         margin-top: 12px;
+      }
+      .input__change-button,
+      .input__save-button {
+         position: absolute;
+         right: 50px;
+         margin-top: 12px;
+      }
+      .input__save-button {
+         color: rgb(171, 173, 186) !important;
+      }
+      input {
+         margin-bottom: 30px;
+         width: 90%;
+         height: 40px;
+         padding: 12px 16px;
+         border-radius: 8px;
+         display: inline-block;
+         border: 1px solid rgb(226, 226, 233);
+         font-size: 16px;
+         transition: all 0.2s ease-in-out;
+         &:focus {
+            border: 1px solid #ff7c03;
+         }
+         &:disabled {
+            background-color: rgb(243, 243, 247);
+            color: rgb(92, 99, 112);
+            cursor: not-allowed;
+            -webkit-text-fill-color: currentcolor;
+         }
+      }
+   }
+}
+@media (max-width: 500px) { 
+   .profile {
+      &__popup-container {
+         transform: translateY(-15px);
+      }
+   }
+ }

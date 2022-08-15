@@ -1,0 +1,56 @@
+.mobile-foodcard {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   
+   padding: 35px 0px;
+   border-bottom: 1px solid rgb(243, 243, 247);
+   &:nth-last-child(1) {
+      border-bottom: none;
+   }
+   .mobile-foodcard__img {
+      margin-right: 10px;
+      img {
+         width: 120px;
+      }
+   }
+   div {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      
+      h3 {
+         font-size: 20px;
+      }
+      p {
+         color: #767676;
+         margin: 10px 0px;
+         font-size: 14px;
+      }
+   }
+   
+}
+@media (max-width: 420px) { 
+   .mobile-foodcard {
+      padding: 25px 0px;
+     
+      .mobile-foodcard__img {
+         margin-right: 10px;
+         img {
+            width: 110px;
+          
+         }
+      }
+      div {
+
+         h3 {
+            font-size: 18px;
+         }
+         p {
+            margin: 10px 0px;
+            font-size: 13px;
+         }
+      }
+      
+   }
+}

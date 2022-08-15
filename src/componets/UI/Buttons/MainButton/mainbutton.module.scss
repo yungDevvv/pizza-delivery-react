@@ -1,0 +1,15 @@
+.mainButton {
+   font-size: 18px;
+   background: #FF7C03;
+   color: #ffffff;
+   border-radius: 30px;
+   transition: all 0.15s ease-in-out;
+   &:hover {
+      background: #df6e05;
+   }
+   &:disabled {
+      background-color: rgb(226, 226, 233);
+      color: rgb(171, 173, 186);
+      cursor: not-allowed;
+   }
+}

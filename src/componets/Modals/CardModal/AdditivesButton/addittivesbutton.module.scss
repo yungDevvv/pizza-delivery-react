@@ -1,0 +1,47 @@
+.AddittivesButton {
+   
+   border-radius: 15px;
+   position: relative;
+   width: calc(33.3333% - 8px);
+   height: 160px;
+   display: flex;
+   flex-direction: column;
+   touch-action: manipulation;
+   box-shadow: rgba(6, 5, 50, 0.12) 0px 4px 20px;
+   align-items: center;
+   padding: 8px;
+   //flex-flow: column;
+   background: rgb(255, 255, 255);
+   margin: 0px 8px 8px 0px;
+   
+   h2 {
+      color: black;
+      flex: 1 0 auto;
+      font-size: 12px;
+   }
+   p {
+      color: black;
+      font-size: 16px;
+   }
+   &:nth-child(3n+0) {
+      margin-right: 0;
+   }
+}
+.AddittivesButton[data-selected="true"] {
+   position: relative;
+   
+      &:after {
+         content: '';
+         background: url('../../../../../public/img/icons/ready-mark.png') 2px 2px/auto 70% no-repeat;
+         font-size: 10px;
+         width: 17px;
+         height: 17px;
+         border-radius: 50%;
+         border: 1px solid rgb(255, 105, 0);
+         color: rgb(255, 105, 0);
+         position: absolute;
+         right: 10px;
+         
+      }
+      border: 1px solid rgb(255, 105, 0);
+}

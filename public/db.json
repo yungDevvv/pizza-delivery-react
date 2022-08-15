@@ -1,0 +1,392 @@
+[{
+   "pizza": [
+      {
+         "id": 1,
+         "title": "Cheese pizza",
+         "img": "img/pizza/cheese-pizza.png",
+         "composition": "Mozzarella, cheddar and parmesan cheeses, alfredo sauce",
+         "price": "10",
+         "weight": 620,
+         "pizza": true
+      },
+      {
+         "id": 2,
+         "title": "Cheeseburger pizza",
+         "img": "img/pizza/cheeseburger-pizza.png",
+         "composition": "Grilled vegetables, tomatoes, onion, mozzarella, pesto sauce, garlic",
+         "price": "11",
+         "weight": 600,
+         "pizza": true
+      },
+      {
+         "id": 3,
+         "title": "Asian shrimp",
+         "img": "img/pizza/asian-shrimps.png",
+         "composition": "Shrimps, mushrooms,  mozzarella, pepper, tomato sause",
+         "price": "11",
+         "weight": 590,
+         "pizza": true
+      },
+      {
+         "id": 4,
+         "title": "Cheese chicken",
+         "img": "img/pizza/cheese-chicken.png",
+         "composition": "Chicken, ham, ranch sauce, mozzarella, tomatoes, garlic",
+         "price": "10",
+         "weight": 650,
+         "pizza": true
+      },
+      {
+         "id": 5,
+         "title": "Pepperoni",
+         "img": "img/pizza/pepperoni-pizza.png",
+         "composition": "Spicy pepperoni, extra mozzarella, tomato sauce",
+         "price": "12",
+         "weight": 600,
+         "pizza": true
+      },
+      {
+         "id": 6,
+         "title": "Hawaiian",
+         "img": "img/pizza/hawaii-pizza.png",
+         "composition": "Ham, pineapple, mozzarella, tomato sauce",
+         "price": "10",
+         "weight": 550,
+         "pizza": true
+      },
+      {
+         "id": 7,
+         "title": "Diablo 🌶️🌶️",
+         "img": "img/pizza/diablo-pizza.png",
+         "composition": "Spicy chorizo, hot jalapeno peppers, barbecue sauce, meatballs, tomatoes, bell peppers, red onion, mozzarella",
+         "price": "13",
+         "weight": 640,
+         "pizza": true
+      },
+      {
+         "id": 8,
+         "title": "Chicken ranch",
+         "img": "img/pizza/chicken-ranch.png",
+         "composition": "Chicken, ham, ranch sauce, mozzarella, tomatoes, garlic",
+         "price": "12",
+         "weight": 650,
+         "pizza": true
+      },
+      {
+         "id": 1010101,
+         "title": "Ham and mushrooms",
+         "img": "img/pizza/mushrom-pizza.png",
+         "composition": "Ham, mushrooms, extra mozzarella, tomato sauce",
+         "price": "11",
+         "weight": 640,
+         "pizza": true
+      },
+      {
+         "id": 1010102,
+         "title": "BBQ sausages",
+         "img": "img/pizza/sasuagebbq-pizza.png",
+         "composition": "Spicy chorizo, barbecue sauce, tomatoes, red onion, mozzarella, tomato sauce",
+         "price": "11",
+         "weight": 640,
+         "pizza": true
+      },
+      {
+         "id": 1010103,
+         "title": "Chicken Bamboni",
+         "img": "img/pizza/chickenbamboni-pizza.png",
+         "composition": "Chicken pieces, bell peppers, cheddar and parmesan cheese mix, mozzarella, red onion, sweet chili sauce",
+         "price": "14",
+         "weight": 750,
+         "pizza": true
+      },
+      {
+         "id": 1010104,
+         "title": "Super meat",
+         "img": "img/pizza/supermeat-pizza.png",
+         "composition": "Double spicy pepperoni, extra mozzarella, tomato sauce",
+         "price": "14",
+         "weight": 750,
+         "pizza": true
+      }
+   ],
+   "snacks": [
+      {
+         "id": 20,
+         "title": "Dodster",
+         "img": "img/snacks/dodster.png",
+         "composition": "Legendary hot appetizer with chicken, tomatoes, mozzarella, ranch sauce in a thin wheat tortilla",
+         "price": "8",
+         "weight": 200
+      },
+      {
+         "id": 21,
+         "title": "Spicy Dodster 🌶️🌶️",
+         "img": "img/snacks/spicy-dodster.png",
+         "composition": "Hot appetizer with chicken, jalapeno peppers, pickles, tomatoes, mozzarella and BBQ sauce in a thin wheat tortilla",
+         "price": "9",
+         "weight": 200
+      },
+      {
+         "id": 22,
+         "title": "Meat Starter 🌶️",
+         "img": "img/snacks/meat-starter.png",
+         "composition": "Hot appetizer with meatballs, tomatoes, mozzarella and spicy burger sauce in a thin wheat tortilla",
+         "price": "7",
+         "weight": 160
+      },
+      {
+         "id": 23,
+         "title": "Cheese Starter",
+         "img": "img/snacks/cheese-starter.png",
+         "composition": "Hot appetizer with a very cheese filling. Mozzarella, parmesan, cheddar and ranch sauce in a thin wheat tortilla",
+         "price": "7",
+         "weight": 160
+      },
+      {
+         "id": 24,
+         "title": "Lunchbox with chicken wings",
+         "img": "img/snacks/lunchbox-chickenwings.png",
+         "composition": "A hearty, hot lunch of spiced and smoked chicken wings, oven baked potatoes with Italian herbs",
+         "price": "8",
+         "weight": 290
+      },
+      {
+         "id": 25,
+         "title": "Lunchbox with chicken pieces",
+         "img": "img/snacks/lunchbox-chichenpeaces.png",
+         "composition": "A hearty hot lunch of tender chicken pieces, oven baked potatoes with Italian herbs and cheese sauce",
+         "price": "8",
+         "weight": 270
+      },
+      {
+         "id": 89891,
+         "title": "Danwich ham and cheese",
+         "img": "img/snacks/danwich-ham-cheese.png",
+         "composition": "Grilled ciabatta and familiar combination of ham, chicken, mozzarella with fresh tomatoes",
+         "price": "7",
+         "weight": 250
+      },
+      {
+         "id": 89892,
+         "title": "Cheese sticks with garlic",
+         "img": "img/snacks/cheesesticks-garlic.png",
+         "composition": "A hearty snack for the company. On a lush dough - only cheese and garlic. And the ranch/garlic sauce included - it tastes better with it!",
+         "price": "6",
+         "weight": 200
+      },
+      {
+         "id": 89893,
+         "title": "Cheese sticks with pesto",
+         "img": "img/snacks/cheesesticks-pesto.png",
+         "composition": "A hearty snack for the company. On a lush dough - only cheese and garlic. And the ranch/garlic sauce included - it tastes better with it!",
+         "price": "6",
+         "weight": 200
+      },
+      {
+         "id": 26,
+         "title": "Chicken pieces",
+         "img": "img/snacks/chichen-pieces.png",
+         "composition": "Juicy chicken fillet in a crispy breading. Big portion",
+         "price": "5",
+         "weight": 280
+      },
+      {
+         "id": 89894,
+         "title": "Chicken wings",
+         "img": "img/snacks/chicken-wing.png",
+         "composition": "Chicken wings with spices and smoked aroma. Big portion",
+         "price": "5",
+         "weight": 280
+      }
+   ],
+   "desserts": [
+      {
+         "id": 27,
+         "title": "Cherry pie",
+         "img": "img/dessert/cherry-pie.png",
+         "composition": "Cherry on the cake! Cottage cheese shortbread dough with berries, custard and almond petals",
+         "price": "3",
+         "weight": 110
+      },
+      {
+         "id": 28,
+         "title": "Cheesecake New York",
+         "img": "img/dessert/cheesecake.png",
+         "composition": "We tried a thousand desserts and finally found the favorite of the guests - the most delicate curd cheesecake",
+         "price": "3",
+         "weight": 110
+      },
+      {
+         "id": 29,
+         "title": "2 Strawberry donuts",
+         "img": "img/dessert/strawberry-donuts.png",
+         "composition": "The brightest duet. Two donuts with strawberry filling and colorful sprinkles",
+         "price": "2",
+         "weight": 140
+      },
+      {
+         "id": 30,
+         "title": "2 Chocolate donuts",
+         "img": "img/dessert/chocolate-donuts.png",
+         "composition": "This donut is so chocolatey you want to try it twice. Two donuts with chocolate filling and sprinkles",
+         "price": "2",
+         "weight": 140
+      },
+      {
+         "id": 31,
+         "title": "2 Chocolate muffins",
+         "img": "img/dessert/chocolate-muffins.png",
+         "composition": "The main course ends, the muffins begin with a chocolate base filling with white and milk chocolate cubes",
+         "price": "2",
+         "weight": 170
+      },
+      {
+         "id": 32,
+         "title": "2 Chocolate cookies",
+         "img": "img/dessert/chocolate-cookies.png",
+         "composition": "On the one hand, cookies are good, but two are even better. Combine dark, Belgian milk and white chocolate",
+         "price": "2",
+         "weight": 100
+      },
+      {
+         "id": 33,
+         "title": "Bracelets, 16 pcs",
+         "img": "img/dessert/bracelets.png",
+         "composition": "These are fervent sweet rolls, in which a mix of natural lingonberries and condensed milk spun",
+         "price": "4",
+         "weight": 200
+      },
+      {
+         "id": 34,
+         "title": "Rolls with cinnamon, 16 pcs",
+         "img": "img/dessert/rolls.png",
+         "composition": "A dessert approved by our grandmothers. Hot sweet rolls with spicy cinnamon and sugar",
+         "price": "4",
+         "weight": 200
+      },
+      {
+         "id": 35,
+         "title": "Apple pie",
+         "img": "img/dessert/apple-pie.png",
+         "composition": "Shortcrust pastry dessert with apple filling. May contain raisins",
+         "price": "3",
+         "weight": 150
+      }
+   ],
+   "drinks": [
+      {
+         "id": 9,
+         "title": "Coca-Cola 0.5",
+         "img": "img/drinks/cocacola.png",
+         "price": "2",
+         "weight": 0.5,
+         "category": "drink"
+      },
+      {
+         "id": 10,
+         "title": "Coca-Cola Zero 0.5",
+         "img": "img/drinks/cocacolaz.png",
+         "price": "2",
+         "weight": 0.5,
+         "category": "drink"
+      },
+      {
+         "id": 11,
+         "title": "Coca-Cola Lime 0.5",
+         "img": "img/drinks/cocacolal.png",
+         "price": "2",
+         "weight": 0.5,
+         "category": "drink"
+      },
+      {
+         "id": 12,
+         "title": "Sprite 0.5",
+         "img": "img/drinks/sprite.png",
+         "price": "2",
+         "weight": 0.5,
+         "category": "drink"
+      },
+      {
+         "id": 13,
+         "title": "Fanta 0.5",
+         "img": "img/drinks/fanta.png",
+         "price": "2",
+         "weight": 0.5,
+         "category": "drink"
+      },
+      {
+         "id": 14,
+         "title": "Schweppes bitter lemon 0.5",
+         "img": "img/drinks/schweppes.png",
+         "price": "3",
+         "category": "drink"
+      },
+      {
+         "id": 15,
+         "title": "Aquafina water 0.5",
+         "img": "img/drinks/aquafina.png",
+         "price": "2",
+         "weight": 0.5,
+         "category": "drink"
+      }
+   ],
+   "warmdrinks": [
+      {
+         "id": 16,
+         "title": "Cocoa with marshmallows",
+         "img": "img/warmdrinks/cocoa-marshmellow.png",
+         "composition": "Hot cocoa with milk, delicate milk foam and vanilla marshmallows",
+         "price": "4",
+         "weight": 0.4
+      },
+      {
+         "id": 17,
+         "title": "Coffee Coconut Latte",
+         "img": "img/warmdrinks/latte-coconut.png",
+         "composition": "Hot espresso based drink with extra milk and coconut syrup",
+         "price": "4",
+         "weight": 0.4
+      },
+      {
+         "id": 19,
+         "title": "Coffee Caramel Cappuccino",
+         "img": "img/warmdrinks/caramel-cappucino.png",
+         "composition": "If not chocolate, then caramel! A cappuccino with caramel syrup is especially good",
+         "price": "4",
+         "weight": 0.4
+      },
+      {
+         "id": 32321,
+         "title": "Coffee Vanilla Cappuccino",
+         "img": "img/warmdrinks/capuccino-vanilla.png",
+         "composition": "This is a coffee drink with frothed milk and vanilla syrup",
+         "price": "4",
+         "weight": 0.4
+      },
+      {
+         "id": 18,
+         "title": "Coffee Cappuccino",
+         "img": "img/warmdrinks/cappucino.png",
+         "composition": "The king among coffee drinks is the classic cappuccino. For lovers of balanced coffee and milk taste",
+         "price": "4",
+         "weight": 0.4
+      },
+      {
+         "id": 32322,
+         "title": "Coffee Americano",
+         "img": "img/warmdrinks/americano.png",
+         "composition": "A couple of sips of hot Americano and you'll be ready to conquer the day",
+         "price": "4",
+         "weight": 0.4
+      },
+      {
+         "id": 32323,
+         "title": "Raspberry Punch",
+         "img": "img/warmdrinks/raspberry-punch.png",
+         "composition": "Warming drink based on raspberry and black currant puree",
+         "price": "4",
+         "weight": 0.4
+      }
+      
+   ]
+}]
